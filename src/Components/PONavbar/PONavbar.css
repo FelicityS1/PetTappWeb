@@ -1,0 +1,109 @@
+.PONavbar {
+    width: 100%;
+    background: #F3F9FF;
+    color: black;
+    padding: 6px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.POmenu-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin:0;
+    padding: 0;
+}
+
+.POmenu-links li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+}
+
+.POmenu-links a.active {
+    color: #1C86FF;
+    border-bottom: 2px solid #1C86FF;
+    padding-bottom: 4px;
+    font-weight: bolder;
+}
+
+.right-PONavbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 260px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-color: #1C86FF;
+    font-size: 12px;
+}
+
+.pfp-user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.welcome-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.user-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.PONavbar ul {
+    display: flex;        
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.PONavbar ul li {
+    list-style: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.MainLogo {
+    width: 55px;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin-left: 20px; 
+}
+
+.POlogo-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000; 
+}
+
+
+

@@ -1,0 +1,80 @@
+.mypets-page {
+    padding: 40px 0;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    min-height: 100vh;
+    background: linear-gradient(rgba(252, 252, 252, 0.814), rgba(252, 252, 252, 0.814)), url('../../assets/Backdrop.png');
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.mypets-container {
+    width: 90%;
+    max-width: 700px;
+}
+
+.mypets-header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1c86ff;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.mypets-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    max-width: 700px;   
+}
+
+.mypet-card {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #cce0ff;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+}
+
+
+.mypet-card:hover {
+    box-shadow: 0px 3px 10px rgba(28, 134, 255, 0.15);
+}
+
+.mypet-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.mypet-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1C86FF;
+}
+
+.mypet-info p {
+    margin: 3px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.add-card {
+    justify-content: center;
+}
+
+.plus-icon {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1C86FF;
+}

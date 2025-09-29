@@ -1,0 +1,139 @@
+.petprofile-page {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(rgba(252, 252, 252, 0.814), rgba(252, 252, 252, 0.814)),url('../../assets/Backdrop.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petprofile-container {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.petprofile-header h2{
+    margin: 10px 0;
+    color: #1C86FF;
+    font-size: 30px;
+}
+
+.petprofile-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    align-items: center;
+}
+
+.petprofile-form label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.petprofile-form input {
+    width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    border-color: black;
+    outline: none;
+    font: 12px;
+}
+
+.petprofile-form input:focus {
+    border-color: #1C86FF;
+    box-shadow: 0 0 3px rgba(28, 134, 255, 0.4);
+}
+
+.petprofile-upload {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.petprofile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 1px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.petprofile-pic:hover {
+    border-color: #1C86FF;
+    transform: scale(1.05);
+}
+
+.next-page {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.next-page a{
+    font-weight: bold;
+    color: #000;
+}
+
+.next-page a:hover {
+    text-decoration: underline;
+}
+
+.btn-addPet{
+    background: #1C86FF;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.pet-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  position: relative;
+  background: #fafafa;
+}
+
+.pet-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pet-card-header h3 {
+  margin: 0;
+  color: #1C86FF;
+}
+
+.remove-pet {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.remove-pet:hover {
+  color: #ff4d4f;
+}

@@ -1,0 +1,155 @@
+.addpet-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(rgba(252, 252, 252, 0.814), rgba(252, 252, 252, 0.814)),url('../../assets/Backdrop.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.addpet-header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1c86ff;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    margin-left: 18%;
+    margin-top: 50px;
+}
+
+.addpet-form {
+    display: flex;
+    background: #E4F1FF;
+    border-radius: 6px;
+    padding: 25px;
+    gap: 25px;
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid #cce0ff;
+    position: relative;
+}
+
+.form-left {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.form-group input {
+    padding: 8px 10px;
+    border: 1.5px solid #cce0ff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+.form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1.5px solid #cce0ff;
+    padding-left: 20px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plus-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px dashed #1c86ff;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #1c86ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.preview-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #1c86ff;
+}
+
+.upload-btn {
+    background: white;
+    border: 1.5px solid #1c86ff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1c86ff;
+    margin-bottom: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.save-btn {
+    background: #1c86ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reset-btn {
+    background: white;
+    border: 1.5px solid #1c86ff;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #1c86ff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    color: #ff4d4d;
+}

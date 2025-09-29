@@ -1,0 +1,77 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F3F9FF;
+    padding: 4px 60px;
+    }
+.menu-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: black;
+    }
+.menu-links li {
+    font-size: 16px;
+    
+    }
+
+.MainLogo{
+        width: 55px;
+    }
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    }
+
+.logo-container {
+        display: flex;
+        align-items: center;
+        gap: 8px; 
+        margin-left: 20px; 
+    }
+
+.logo-text {
+        font-size: 25px;
+        font-weight: bold;
+        color: black; 
+    }
+
+.auth-btns {
+    display: flex;
+    gap: 8px;
+    }
+
+.btn1 {
+        background: transparent;
+        color: #1C86FF;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+.btn1.active {
+    background: rgba(28, 134, 255, 0.1);
+    background: #1C86FF;
+    color: white;
+    }
+
+.btn2 {
+    background: transparent;
+    color: #1C86FF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    }
+
+.btn2.active {
+    background: rgba(28, 134, 255, 0.1);
+    background: #1C86FF;
+    color: white;
+    }
