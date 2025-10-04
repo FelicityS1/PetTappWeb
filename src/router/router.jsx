@@ -22,6 +22,7 @@ export const router = createBrowserRouter(
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/unauthorized" element={<UnauthorizedPage />} />
+        {/* Add more routes for Public here */}
       </Route>
 
       {/* Pet Owner Routes */}
@@ -35,7 +36,11 @@ export const router = createBrowserRouter(
       >
         <Route path="profile" element={<div>Pet Profile Page</div>} />
         <Route path="appointments" element={<div>Pet Appointments</div>} />
-        <Route path="medical-records" element={<div>Pet Medical Records</div>} />
+        <Route
+          path="medical-records"
+          element={<div>Pet Medical Records</div>}
+        />
+        {/* Add more routes for Pet Owner here */}
       </Route>
 
       {/* Business Owner Routes */}
@@ -51,6 +56,7 @@ export const router = createBrowserRouter(
         <Route path="services" element={<div>Manage Services</div>} />
         <Route path="appointments" element={<div>Business Appointments</div>} />
         <Route path="customers" element={<div>Customer Management</div>} />
+        {/* Add more routes for Business Owner here */}
       </Route>
 
       {/* Admin Routes */}
@@ -66,6 +72,7 @@ export const router = createBrowserRouter(
         <Route path="users" element={<div>User Management</div>} />
         <Route path="businesses" element={<div>Business Management</div>} />
         <Route path="reports" element={<div>Reports & Analytics</div>} />
+        {/* Add more routes for Admin here */}
       </Route>
     </>
   )
